@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+html {
+    background-color: #fffdfc;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.25em;
+    line-height: 1.4em;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 1em;
+    color: #2d2b2b;
+}
+
+p {
+    color: #232222;
+}
+
+.introcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    margin: 0 1em;
+}
+
+.introcard > div > img {
+    max-width: 240px;
+}
+
+@media only screen and (min-width: 640px) {
+    .introcard {
+        gap: 2em;
+        flex-direction: row;
+        margin-right: 2.5em;
+    }
+
+    .info {
+        margin-top: 1em;
+    }
+
+    main {
+        margin-top: 4em;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+.links {
+    margin-top: 1.5em;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links ul li {
+    margin: 0.4em 0;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: rgb(255, 252, 251);
+    background-color: rgb(175, 71, 55);
+}
+
+.redbeancolor {
+    color: rgb(184, 36, 13);
+}
