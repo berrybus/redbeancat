@@ -5,7 +5,7 @@ html {
     background-color: #fffdfc;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.25em;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 body {
@@ -24,6 +24,8 @@ h1 {
     font-family: 'Fira Sans', sans-serif;
     margin-bottom: 1em;
     color: #2d2b2b;
+    text-align: center;
+    line-height: 1.1em;
 }
 
 p {
