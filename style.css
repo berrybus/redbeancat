@@ -42,7 +42,7 @@ p {
 }
 
 .introcard > div > img {
-    max-width: 240px;
+    max-width: 260px;
 }
 
 @media only screen and (min-width: 640px) {
@@ -67,24 +67,24 @@ img {
 
 .links {
     margin-top: 1.5em;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5em;
 }
 
-.links ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.links ul li {
-    margin: 0.4em 0;
-}
-
-.links a {
+.links a, .links a:visited {
     text-decoration: none;
+    padding: 0.25em 0.5em;
+    border: 1px solid rgb(190, 96, 79);
+    border-radius: 4px;
+    color: rgb(148, 54, 39);
 }
 
-.links a:hover {
-    color: rgb(255, 252, 251);
-    background-color: rgb(175, 71, 55);
+@media (hover: hover) {
+    .links a:hover {
+        color: rgb(255, 252, 251);
+        background-color: rgb(190, 96, 79);
+    }
 }
 
 .redbeancolor {
