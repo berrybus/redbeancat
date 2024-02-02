@@ -87,6 +87,11 @@ img {
     }
 }
 
+.links a:active {
+    color: rgb(255, 252, 251);
+    background-color: rgb(190, 96, 79);
+}
+
 .redbeancolor {
     color: rgb(184, 36, 13);
 }
