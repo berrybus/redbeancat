@@ -87,7 +87,7 @@ img {
     }
 }
 
-.links a:active {
+.links a:active, a:focus {
     color: rgb(255, 252, 251);
     background-color: rgb(190, 96, 79);
 }
